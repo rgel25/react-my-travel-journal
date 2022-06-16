@@ -1,7 +1,7 @@
 /* Works on Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: blue orange;
+  scrollbar-color: var(--primary-dark) var(--primary-light);
 }
 
 /* Works on Chrome, Edge, and Safari */
@@ -15,4 +15,5 @@
 
 *::-webkit-scrollbar-thumb {
   background-color: var(--primary-dark);
+  border-top: 2px solid var(--primary-light);
 }

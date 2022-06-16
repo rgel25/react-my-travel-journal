@@ -6,7 +6,7 @@ export default function Nav() {
     <nav>
       <div className="nav-logo">
         <img src={navLogo} alt="globe" className="nav-logo-img" />
-        <span className="nav-logo-title">my travel journal</span>
+        <span className="nav-logo-title">My Travel Journal</span>
       </div>
     </nav>
   );
