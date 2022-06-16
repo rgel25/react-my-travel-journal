@@ -1,29 +1,21 @@
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
-&&&&&&&&&&&
-&EDIT THIS&
-&&&&&&&&&&&
-This is a simple web application showcasing my command of HTML and CSS.
+My Travel Journal is a simple React app showcasing my basic implementations of props.
+
+_Note: This web application is not mobile-friendly as it's not the goal of this project_
 
 ## The challenge
-&&&&&&&&&&&
-&EDIT THIS&
-&&&&&&&&&&&
-The main challenge here is laying out the cards in a three column design and make it responsive according to the user screen.
+
+The main challenge here is to display three components with different props coming from a single array of objects.
 
 ## My solution
-&&&&&&&&&&&
-&EDIT THIS&
-&&&&&&&&&&&
-I started building with the three main cards on top of each other, considering the mobile design first. Once everything is settled for the mobile screens, I then added media queries
-and reorganized the cards horizontally, forming a one big card the contains the three smaller cards as its columns. From there, it was just a matter of scaling the size the main card
-according to the size of the screen.
+
+To solve the challenge, I used Array Mapping to render three instances of the Entry component while passing each array element as props.
+
+![screenshot of my solution](https://i.ibb.co/6vCdrkm/entryreact.png)
 
 ## Technologies used
-&&&&&&&&&&&
-&EDIT THIS&
-&&&&&&&&&&&
+
 - React
 - JS
 - HTML
@@ -34,15 +26,13 @@ according to the size of the screen.
 
 ## Preview
 
-![Actual preview for my project - Desktop](./design/actual-desktop.png)
+![Actual preview for my project - Desktop](https://i.ibb.co/yNk8pXb/amiralles-react-mytraveljournal-netlify-app.png)
 
 ## Deployment
 
 You may visit the deployed web app through the link below.
-&&&&&&&&&&&
-&EDIT THIS&
-&&&&&&&&&&&
-- [SITE](LINKTOSITE)
+
+- [https://amiralles-react-mytraveljournal.netlify.app/](https://amiralles-react-mytraveljournal.netlify.app/)
 
 ## Footnote
 
